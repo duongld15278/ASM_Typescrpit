@@ -1,0 +1,155 @@
+{
+  "users": [],
+  "products": [
+    {
+      "image": "http://res.cloudinary.com/dqsykuvvc/image/upload/v1659432683/tfuhf2xbissnlk4zzrdc.jpg",
+      "name": "iPhone 11 64GB I Chính hãng VN/A",
+      "price": "14990000",
+      "sale": "10790000 ",
+      "longDesc": "Apple luôn làm hài lòng tín đồ iFan với các dòng iPhone trong từng phân khúc giá. Đặc biệt, phiên bản iPhone 11 vừa ra mắt nhưng đã chiếm lĩnh được thị trường smartphone trên toàn thế giới với giá cả phải chăng. Cùng tìm hiểu chi tiết rõ hơn qua bài viết sau đây để có quyết định có nên mua hay không nhé!",
+      "shortDesc": "Yên tâm sử dụng - Kháng nước, kháng bụi IP68, kính cường lực Gorilla\n",
+      "feature": "Màu sắc phù hợp cá tính - 6 màu sắc bắt mắt để lựa chọn\nHiệu năng mượt mà, ổn định - Chip A13, RAM 4GB\nBắt trọn khung hình - Camera kép hỗ trợ góc rộng, chế độ Night Mode\nYên tâm sử dụng - Kháng nước, kháng bụi IP68, kính cường lực Gorilla",
+      "category": "1",
+      "id": 9
+    },
+    {
+      "image": "http://res.cloudinary.com/dqsykuvvc/image/upload/v1659719409/fpbbkjurmtjlrzohiyp6.jpg",
+      "name": "iPhone 13 Pro 128GB | Chính hãng VN/A",
+      "price": "24790000",
+      "sale": "20790000",
+      "longDesc": "iPhone 13 Pro chính là chiếc siêu phẩm được chờ đợi nhất trong năm 2021, hứa hẹn mang đến trải nghiệm đỉnh cao với những công nghệ mới như màn hình 120Hz, chip A15 Bionic, camera cảm biến lớn mang lại ảnh chụp chất lượng hơn.",
+      "shortDesc": "iPhone 13 Pro chính là chiếc siêu phẩm được chờ đợi nhất trong năm 2021",
+      "feature": "Hiệu năng vượt trội - Chip Apple A15 Bionic mạnh mẽ, hỗ trợ mạng 5G tốc độ cao\nKhông gian hiển thị sống động - Màn hình 6.1\" Super Retina XDR độ sáng cao, sắc nét\nTrải nghiệm điện ảnh đỉnh cao - Cụm 3 camera 12MP, hỗ trợ ổn định hình ảnh quang học\nTối ưu điện năng - Sạc nhanh 20 W, đầy 50% pin trong khoảng 30 phút",
+      "category": "1",
+      "id": 10
+    },
+    {
+      "image": "http://res.cloudinary.com/dqsykuvvc/image/upload/v1659719484/zpxbdfwprmkz2ksrkuce.jpg",
+      "name": "iPhone 13 mini 128GB | Chính hãng VN/A",
+      "price": "21000000",
+      "sale": "17000000",
+      "longDesc": "Apple vừa trình làng iPhone 13 mini cùng với 3 phiên bản khác là iPhone 13 Pro và 13 Pro Max cùng iPhone 13 thường tương tự năm ngoái. Tuy nhiên dòng sản phẩm mới năm nay có nhiều nâng cấp về cấu hình, camera, thiết kế lẫn màu sắc. Như vậy, Apple đã không thay đổi số lượng phiên bản cũng như kích thước màn hình của loạt điện thoại iPhone 13 năm nay. ",
+      "shortDesc": "Apple vừa trình làng iPhone 13 mini cùng với 3 phiên bản khác là iPhone 13 Pro và 13 Pro Max cùng iPhone 13 thường tương tự năm ngoái.",
+      "feature": "Hiệu năng vượt trội - Chip Apple A15 Bionic mạnh mẽ, hỗ trợ mạng 5G tốc độ cao\nKhông gian hiển thị sống động - Màn hình 5.4\" Super Retina XDR độ sáng cao, sắc nét\nTrải nghiệm điện ảnh đỉnh cao - Camera kép 12MP, hỗ trợ ổn định hình ảnh quang học\nTối ưu điện năng - Sạc nhanh 20 W, đầy 50% pin trong khoảng 30 phút",
+      "category": "1",
+      "id": 11
+    },
+    {
+      "image": "http://res.cloudinary.com/dqsykuvvc/image/upload/v1659719593/ml7qwxsgaxfskd1dsqe8.jpg",
+      "name": "iPhone 12 128GB I Chính hãng VN/A",
+      "price": "21990000",
+      "sale": "17990000",
+      "longDesc": "iPhone 12 hiện nay là cái tên “sốt xình xịch” bởi đây là một trong 4 siêu phẩm vừa được ra mắt của Apple với những đột phá về cả thiết kế lẫn cấu hình. Phiên bản Apple iPhone 12 128GB chính là một trong những chiếc iPhone được săn đón nhất bởi dung lượng bộ nhớ khủng, cho phép bạn thoải mái với vô vàn ứng dụng.",
+      "shortDesc": "iPhone 12 hiện nay là cái tên “sốt xình xịch” bởi đây là một trong 4 siêu phẩm vừa được ra mắt của Apple",
+      "feature": "Mạnh mẽ, siêu nhanh với chip A14, RAM 4GB, mạng 5G tốc độ cao\nRực rỡ, sắc nét, độ sáng cao - Màn hình OLED cao cấp, Super Retina XDR hỗ trợ HDR10, Dolby Vision\nChụp đêm ấn tượng - Night Mode cho 2 camera, thuật toán Deep Fusion, Smart HDR 3\nBền bỉ vượt trội - Kháng nước, kháng bụi IP68, mặt lưng Ceramic Shield",
+      "category": "1",
+      "id": 12
+    },
+    {
+      "image": "http://res.cloudinary.com/dqsykuvvc/image/upload/v1659719933/l4inaq941pkrx0pmflcu.jpg",
+      "name": "iPad 10.2 2021 WiFi 64GB | Chính hãng Apple Việt Nam",
+      "price": " 10990000",
+      "sale": "8490000",
+      "longDesc": "Sau sự thành công của chiếc iPad Gen 8 cùng với iPad Air 4, Apple lại tiếp tục rục rịch cho ra mắt thêm sản phẩm mới. Thiết bị mang tên iPad Gen 9, kế thừa đặc trưng của dòng nhưng được nâng cấp thêm về hiệu năng cũng như camera.",
+      "shortDesc": "Sau sự thành công của chiếc iPad Gen 8 cùng với iPad Air 4, Apple lại tiếp tục rục rịch cho ra mắt thêm sản phẩm mới. Thiết bị mang tên iPad Gen 9, kế thừa đặc trưng của dòng nhưng được nâng cấp thêm về hiệu năng cũng như camera.",
+      "feature": "Hiệu năng ổn định - Apple A13 Bionic 6 nhân mạnh mẽ\nTrải nghiệm hiển thị chất lượng - Màn hình Retina 10.2 inch, hỗ trợ True Tone\nSử dụng thoải mái suốt cả ngày - Pin 32.4 Wh (~8600 mAh) sử dụng lâu dài\nGiữ trọn mọi khoảnh khắc - Camera trước 12MP và sau 8MP sắc nét, chuẩn HDR",
+      "category": "2",
+      "id": 13
+    },
+    {
+      "image": "http://res.cloudinary.com/dqsykuvvc/image/upload/v1659719881/l8qkbbio9pj4sjcdknzq.jpg",
+      "name": "Apple iPad Pro 11 2021 M1 WiFi 128GB I Chính hãng Apple Việt Nam",
+      "price": "23990000",
+      "sale": "19590000",
+      "longDesc": "iPad Pro 11 inch 2021 sở hữu ngoại hình mang nhiều điểm tương tự về ngoại hình với chiếc iPad Pro trước đó. Apple iPad Pro 2021 sử dụng màn hình kích thước 11 inch và sử dụng màn hình LCD truyền thống.  Màn hình trên iPad Pro 2021 này với công nghệ màu ProMotion cùng độ phân giải cao 264 pixel mỗi inch. Màn hình này cũng được trang bị lớp phủ chống bám vân tay và chống phản xạ, nâng cao trải nghiệm cho người dùng.",
+      "shortDesc": "Như thường lệ hằng năm Apple lại cho ra mắt chiếc máy tính bảng của mình. iPad Pro 2021 phiên bản 11 inch hứa hẹn mang đến một trải nghiệm mạnh vẽ với nhiều tính năng nổi bật.",
+      "feature": "Đỉnh cao công nghệ màn hình - Màn hình Liquid Retina, tần số quét 120Hz, True- Tone\nHiệu năng như máy tính - Vi xử lý M1, 8GB RAM\nChụp ảnh chất lượng, hỗ trợ AR tiên tiến - Camera kép 12MP, cảm biến LiDAR cao cấp\nKết nối tốc độ cao - Wifi 6.siêu tốc, sạc nhanh Thunderbolt 4",
+      "category": "2",
+      "id": 14
+    },
+    {
+      "image": "http://res.cloudinary.com/dqsykuvvc/image/upload/v1659720056/zzadw1nmmtcrr4br6q6k.jpg",
+      "name": "Apple iPad mini 6 WiFi 64GB | Chính hãng Apple Việt Nam",
+      "price": "14990000",
+      "sale": "12990000",
+      "longDesc": "Với sự thành công của các thế hệ iPad mini trước iPad mini 6 là sản phẩm kế nhiệm mới với nhiều tính năng hiện kèm nhiều sự nâng cấp đáng chú ý dành cho người dùng trong năm nay. Nếu bạn đang có nhu cầu mua cho mình một chiếc máy tính bảng iPad để phục vụ cho nhu cầu sử dụng thì iPad Mini 6 sẽ là sự lựa chọn hoàn hảo cho bạn vào thời điểm này cho nhu cầu sử dụng tablet kích thước vừa phải.",
+      "shortDesc": "Với sự thành công của các thế hệ iPad mini trước iPad mini 6 là sản phẩm kế nhiệm mới với nhiều tính năng hiện kèm nhiều sự nâng cấp đáng chú ý dành cho người dùng trong năm nay.",
+      "feature": "Mạnh mẽ bứt phá - Chip xử lý Apple A15 Bionic 6 nhân\nHiển thị sắc nét, mượt mà hơn - Màn hình IPS LCD 8,3 inch hỗ trợ True Tone\nPhá vỡ giới hạn sáng tạo - Hỗ trợ Apple Pencil 2, iPadOS 15 tiện ích hơn\nCamera bắt trọn mọi khoảnh khắc - Camera trước và sau 12MP\nThoải mái sử dụng cả ngày - Pin 19.3 Wh, cổng sạc USB-C",
+      "category": "2",
+      "id": 15
+    },
+    {
+      "image": "http://res.cloudinary.com/dqsykuvvc/image/upload/v1659720219/ifbj0am1vx1bb6bcktii.jpg",
+      "name": "Apple Watch SE 40mm (GPS) Viền Nhôm - Dây Cao Su | Chính Hãng VN/A",
+      "price": "8990000",
+      "sale": "6690000",
+      "longDesc": "Năm 2020, chắc hẳn các iFan đang háo hức đón chờ các siêu phẩm được ra mắt từ Apple. Đặc biệt Apple Watch SE 40mm  GPS) là một trong những phiên bản được Apple ra mắt vào năm 2020 và đang được nhiều người dùng quan tâm không kém gì phiên bản chính thức cao cấp.",
+      "shortDesc": "Apple Watch SE 40mm - Sang trọng, đẳng cấp như bản cao cấp",
+      "feature": "Màn hình retina cho màu sắc hiển thị rực rỡ,sống động.\nChức năng cảnh báo khẩn cấp động gọi tới các số diện thoại đã lưu khi phát hiện người dùng té ngã\nNghe gọi ngay trên đồng hồ khi kết nối với iPhone thông qua Bluetooth hoặc wifi\nMặt kính cường lực cao cấp ion-X cho khả năng chịu đựng trọng lực gấp 2.5 lần kính sapphire\nTheo dõi sức khoẻ với các tính năng thống kê nhịp tim,đo chất lượng giấc ngủ......\nThời lượng pin 18 giờ sử dụng,sạc đầy trong 2 giờ\nBộ nhớ trong lên đến 32GB",
+      "category": "3",
+      "id": 16
+    },
+    {
+      "image": "http://res.cloudinary.com/dqsykuvvc/image/upload/v1659720265/ttgnqgkgbmnacaulvt5p.jpg",
+      "name": "Apple Watch SE 44mm (4G) Viền Nhôm - Dây Vải | Chính Hãng VN/A",
+      "price": "10990000",
+      "sale": "7990000 ",
+      "longDesc": "Thời đại phát triển ngày nay, bên cạnh điện thoại thông minh thì đồng hồ cũng là một vật dụng mang tính công nghệ và có lợi ích to lớn với con người. Apple luôn tung ra thị trường những mẫu đồng hồ thông minh chất lượng, một trong số đó là Apple Watch SE 44mm (4G) viền nhôm dây vải. ",
+      "shortDesc": "Apple Watch SE 44mm (4G) viền nhôm - Dây vải sang trọng\n",
+      "feature": "Chất liệu viền nhôm, dây vải cao cấp và kích thước cân đối, thon gọn",
+      "category": "3",
+      "id": 17
+    },
+    {
+      "image": "http://res.cloudinary.com/dqsykuvvc/image/upload/v1659720384/iatzgtcfoed75lyjf7gp.jpg",
+      "name": "Macbook Pro 14 inch 2021 | Chính hãng Apple Việt Nam",
+      "price": " 52990000",
+      "sale": "48900000",
+      "longDesc": "Kế thừa những tinh hoa từ đời MacBook tốt nhất cùng với những nâng cấp đáng kể trong nhiều năm qua, Macbook Pro 14 inch dự kiến sẽ là mẫu laptop làm cho giới công nghệ \"phát sốt\", cũng như là cỗ máy xử lý công việc tối ưu hiệu quả.",
+      "shortDesc": "Macbook Pro 14 inch - Chiếc Macbook đáng mong đợi nhất 2021",
+      "feature": "Hiệu năng vượt trội - Cân mọi tác vụ từ công việc, đồ họa cho đến những tựa game nặng\nĐa nhiệm mượt mà - RAM 16 GB giải quyết khối lượng công việc “nặng đô” một cách nhanh chóng và ấn tượng\nSSD 512 GB - Tăng tốc toàn diện và khởi động trong tích tắt\nMàn hình 14.2 inch Liquid Retina XDR (3024 x 1964) chất lượng hiển thị vô cùng sắc nét\n",
+      "category": "4",
+      "id": 18
+    },
+    {
+      "image": "http://res.cloudinary.com/dqsykuvvc/image/upload/v1659720448/pld6gqsi3apqfe6nd7r8.jpg",
+      "name": "Apple MacBook Air M1 256GB 2020 I Chính hãng Apple Việt Nam",
+      "price": "28990000",
+      "sale": "22890000",
+      "longDesc": "Là dòng sản phẩm có thiết kế mỏng nhẹ, sang trọng và tinh tế cùng với đó là giá thành phải chăng nên MacBook Air đã thu hút được đông đảo người dùng yêu thích và lựa chọn. Một trong những phiên bản mới nhất mà khách hàng không thể bỏ qua khi đến với CellphoneS đó là MacBook Air M1. Dưới đây là chi tiết về thiết kế, cấu hình của máy.",
+      "shortDesc": "Macbook Air M1 2020 - Sang trọng, tinh tế, hiệu năng khủng\n",
+      "feature": "Hiệu năng vượt trội - Cân mọi tác vụ từ word, exel đến chỉnh sửa ảnh trên các phần mềm như AI, PTS\nĐa nhiệm mượt mà - Ram 8GB cho phép vừa mở trình duyệt để tra cứu thông tin, vừa làm việc trên phần mềm\nTrang bị SSD 256GB - Cho thời gian khởi động nhanh chóng, tối ưu hoá thời gian load ứng dụng\nChất lượng hình ảnh sắc nét - Màn hình Retina cao cấp cùng công nghệ TrueTone cân bằng màu sắc\nThiết kế sang trọng - Nặng chỉ 1.29KG, độ dày 16.1mm. Tiện lợi mang theo mọi nơi",
+      "category": "4",
+      "id": 19
+    },
+    {
+      "image": "http://res.cloudinary.com/dqsykuvvc/image/upload/v1659720509/qcwz1beo0sdz2jkzgxkk.jpg",
+      "name": "Apple Macbook Air M2 2022 8GB 512GB I Chính hãng Apple Việt Nam",
+      "price": "39990000",
+      "sale": "38490000",
+      "longDesc": "Macbook Pro M2 2022 là phiên bản nâng cấp mạnh mẽ của Macbook Pro M1 với nhiều cải tiến vô cùng ấn tượng. Đây sẽ là chiếc laptop mang đến cho người dùng trải nghiệm cực tốt. Từ đó giúp mọi hoạt động giải trí cũng như các công việc nặng như đồ họa, thiết kế đều được xử lý một cách mượt mà và nhanh chóng hơn.",
+      "shortDesc": "Macbook Pro M2 2022 mạnh mẽ hơn, nhiều cải tiến ấn tượng hơn\n",
+      "feature": "Macbook Pro M2 2022 là phiên bản thời thượng với lớp vỏ được hoàn thiện bằng kim loại nguyên khối cực kỳ sang trọng và thời trang. Tuy nhiên, trên phiên bản mới này Apple đã tạo ra một sự khác biệt nhỏ với bộ khung phẳng hơn. Bạn hoàn toàn có cầm tay hoặc là bỏ vào cặp xách một cách nhẹ nhàng và di chuyển dễ dàng.",
+      "category": "4",
+      "id": 20
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "iPhone"
+    },
+    {
+      "id": 2,
+      "name": "iPad"
+    },
+    {
+      "id": 3,
+      "name": "Apple Watch"
+    },
+    {
+      "id": 4,
+      "name": "macbook"
+    }
+  ]
+}
