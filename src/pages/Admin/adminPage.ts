@@ -44,7 +44,7 @@ const AdminPage = {
                     <div class="filter-cate">
                     <label for="category" class="">Danh muc san pham</label><br>
                     <select class="w-[300px] h-9 mt-3 rounded border-gray-300" name="category" id="filter">
-                        <option value=""> --- </option>
+                        <option value=""> Danh mục </option>
                         ${categ.data.map((item: Category) => `
                         <option value="${item.id}">${item.name}</option>
                         `)}

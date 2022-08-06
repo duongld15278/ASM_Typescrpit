@@ -1,4 +1,5 @@
 import validator from 'validator';
+import { register } from '../../api/auth';
 
 const signup = {
     render: async () => {

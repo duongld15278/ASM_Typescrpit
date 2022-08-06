@@ -1,5 +1,12 @@
 {
-  "users": [],
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$UhuUE2lJC.0dAqndKHXNZeukBW5obJN8eppo9I885jjNrpJrmwvrK",
+      "phone": "0374069452",
+      "id": 1
+    }
+  ],
   "products": [
     {
       "image": "http://res.cloudinary.com/dqsykuvvc/image/upload/v1659432683/tfuhf2xbissnlk4zzrdc.jpg",

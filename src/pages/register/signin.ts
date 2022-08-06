@@ -53,7 +53,7 @@ const signin = {
         // Khai bao
         const submit = document.querySelector('#btn-submit')
         const formField = [
-            "email", "phone", "password"
+            "email", "password"
         ]
         const validate = function() {
             let data: any = {};
