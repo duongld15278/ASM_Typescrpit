@@ -24,6 +24,12 @@
       "password": "$2a$10$9DXDQuDaBN9QaWQKY/tU/OWqPjX0gOO9dOZowf3XTcvF5CjnRl/WK",
       "phone": "511919189891894",
       "id": 4
+    },
+    {
+      "email": "duong@gmail.com",
+      "password": "$2a$10$Hsd6siPZDjRgBlftpCRZJ.f0fD4xC0REM2iuv5bNYri8TsrF6Srm.",
+      "phone": "0374069452",
+      "id": 5
     }
   ],
   "products": [

@@ -62,6 +62,14 @@ const HomePage = {
       </div>
       ${Footer.render()}
         `   
+    },
+    afterRender: () => {
+      const logout = document.querySelector("#logout")
+        logout?.addEventListener('click', function () {
+            localStorage.clear()
+            alert("Đã đăng xuất khỏi tài khoản")
+            location.href = "/signin"
+        })
     }
 }
 

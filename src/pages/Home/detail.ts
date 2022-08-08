@@ -25,7 +25,7 @@ const DetailProduct = {
 
         return /*html*/ `
         ${UserHeader.render()}
-        <div class="w-[1250px] mx-auto mt-2">
+        <div class="w-[1350px] mx-auto mt-2">
             <div class="w-full">
                 <div class="">
                     <ul class="flex justify-start space-x-7 capitalize text-xs text-gray-500 ">
@@ -52,16 +52,16 @@ const DetailProduct = {
                                 <span class="line-through">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(res.price)}</span>
                             </div>
                         </div>
-                        <div class="text-base w-[882px] h-[157px]">
+                        <div class="text-base w-full h-[157px]">
                             Mô tả ngắn: ${res.shortDesc}
                         </div>
                         <div class="flex">
-                            <a href="#" class="">
+                            <button>
                                 <div class=" inline-black bg-red-600 py-5 px-16 rounded-md text-white">
                                     Mua ngay
                                 </div>
-                            </a>
-                            <a class="flex justify-between items-center mx-5 w-40" href="#">
+                            </button>
+                            <button id="add-cart" class="flex justify-between items-center mx-5 w-40">
                                 <div class="inline-black rounded-md border-2 border-red-600 mr-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-red-600 m-4 "
                                         fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -71,7 +71,7 @@ const DetailProduct = {
                                     
                                 </div>
                                 <span>Thêm vào giỏ hàng</span>
-                            </a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -79,47 +79,72 @@ const DetailProduct = {
             <div class="font-semibold text-2xl mx-auto container ">
                 <a href="#" >Sản phẩm cùng loại</a>
             </div>
-            <div class="grid grid-cols-6 mx-auto container">
-                ${resCate.map((item: Product) => `
-                <a href="/product/${item.id}">
-                <div class=" h-[300px] mx-1 rounded-lg  border-2 border-stone-400 mt-5">
-                    <img src="${item.image}" alt=""
-                        class="w-[160px] h-[160px] container mx-auto ">
-                    <div class="text-black font-semibold p-3 max-h-16 text-clip overflow-hidden ...">
-                        ${item.name}   
-                    </div>
-                    <div class="flex items-center mt-4 p-3">
-                        <div class="mx-1  text-base">
-                            <div class="text-red-600">
-                                ${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(item.sale)}
+                <div class="grid grid-cols-6 mx-auto container">
+                    ${resCate.map((item: Product) => `
+                    <a href="/product/${item.id}">
+                        <div class=" h-[300px] mx-1 rounded-lg  border-2 border-stone-400 mt-5">
+                            <img src="${item.image}" alt=""
+                                class="w-[160px] h-[160px] container mx-auto ">
+                            <div class="text-black font-semibold p-3 max-h-16 text-clip overflow-hidden ...">
+                                ${item.name}   
+                            </div>
+                            <div class="flex items-center mt-4 p-3">
+                                <div class="mx-1  text-base">
+                                    <div class="text-red-600">
+                                        ${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(item.sale)}
+                                    </div>
+                                </div>
+                                <div class=" mx-2">
+                                    <div class="text-stone-400 text-xs">
+                                        <span class="line-through">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(item.price)}</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class=" mx-2">
-                            <div class="text-stone-400 text-xs">
-                                <span class="line-through">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(item.price)}</span>
-                            </div>
-                        </div>
+                    </a>
+                    `).join("")}
+                </div>
+                <section class="bg-stone-300 container max-h-50	mt-20 rounded-lg mx-auto p-2">
+                    <h2 class=" text-center text-red-700 text-2xl">ĐẶC ĐIỂM NỔI BẬT</h2>
+                    <div class="mt-3 ">
+                        ${res.feature}
                     </div>
+                </section>
+                <div class="mx-auto container my-10">
+                    ${res.longDesc}
                 </div>
-            </a>
-                `).join("")}
-            
-            </div>
-            <section class="bg-stone-300 container max-h-50	mt-20 rounded-lg mx-auto p-2">
-                <h2 class=" text-center text-red-700 text-2xl">ĐẶC ĐIỂM NỔI BẬT</h2>
-                <div class="mt-3 ">
-                    ${res.feature}
-                </div>
-            </section>
-            <div class="mx-auto container my-10">
-                ${res.longDesc}
-            </div>
             </div>
             </div>
         </div>
         <hr>
     ${Footer.render()}
         `
-    }
+    },
+    afterRender: (id) => {
+        const addCart = document.querySelector("#add-cart")
+        addCart?.addEventListener('click', async function () {
+    
+          //get data product
+          const product = await Read(id)
+          const data = product.data
+    
+    
+          //set data cart
+          const cart = JSON.parse(localStorage.getItem("cart"))
+          if (cart) {
+            const index = cart.findIndex(x => x.id == data.id)
+            if (index === -1) {
+              cart.push(data)
+            }
+            localStorage.setItem("cart", JSON.stringify([...cart]))
+          } else {
+            localStorage.setItem("cart", JSON.stringify([data.id]))
+          }
+          const newCart = JSON.parse(localStorage.getItem("cart"))
+          console.log(newCart, "localstorage");
+    
+          alert("Đã thêm vào giỏ hàng")
+        })
+      }
 }
 export default DetailProduct
