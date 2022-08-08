@@ -60,9 +60,8 @@ const HomePage = {
         `).join("")}
           
       </div>
-        <!-- Body -->
-        ${Footer.render()}
-            <!-- Body -->`   
+      ${Footer.render()}
+        `   
     }
 }
 
