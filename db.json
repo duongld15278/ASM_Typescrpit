@@ -4,7 +4,26 @@
       "email": "admin@gmail.com",
       "password": "$2a$10$UhuUE2lJC.0dAqndKHXNZeukBW5obJN8eppo9I885jjNrpJrmwvrK",
       "phone": "0374069452",
-      "id": 1
+      "id": 1,
+      "role": 1
+    },
+    {
+      "email": "admin1@gmail.com",
+      "password": "$2a$10$Cb5lApaMynNm6jEX5pK9CuWRM8w4OXU/pBBnEhzLqPhQSh4.R047W",
+      "phone": "0374069452",
+      "id": 2
+    },
+    {
+      "email": "admin2@gmail.com",
+      "password": "$2a$10$aiDu9FE2thLNPZx1ajgyOeAZaSspM1MGNsdQ9vAoEVc7acChU2xTW",
+      "phone": "03745545434",
+      "id": 3
+    },
+    {
+      "email": "admin3@gmail.com",
+      "password": "$2a$10$9DXDQuDaBN9QaWQKY/tU/OWqPjX0gOO9dOZowf3XTcvF5CjnRl/WK",
+      "phone": "511919189891894",
+      "id": 4
     }
   ],
   "products": [

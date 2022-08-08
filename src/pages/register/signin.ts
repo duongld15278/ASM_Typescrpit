@@ -1,4 +1,5 @@
 import validator from 'validator';
+import { login } from '../../api/auth';
 
 const signin = {
     render: async () => {
@@ -89,13 +90,32 @@ const signin = {
         }
 
         submit.onclick = async function () {
-            const {error, data} = validate()
-            if(!error) {
+            const { error, data } = validate()
+            if (!error) {
                 try {
-                    const res = await register(data)
-                    alert("Đăng kí thành công")
-                } catch(error) {
-                    alert(error.message)
+                    const res = await login(data)
+                    localStorage.setItem('user', JSON.stringify(res.data.user))
+                    console.log(res.data);
+
+
+                    if (localStorage.getItem("user")) {
+                        try {
+                            if (res.data.user.role == 1) {
+                                alert("Xin chào Admin")
+                                location.href = "/admin"
+                            }
+                            else {
+                                alert("Xin chào User")
+                                location.href = "/"
+                            }
+                        } catch (error) {
+                            alert("Đăng nhập thất bại")
+                        }
+
+
+                    }
+                } catch (error) {
+                    alert("Tài khoản hoặc mật khẩu không chính xác")
                 }
             }
         }

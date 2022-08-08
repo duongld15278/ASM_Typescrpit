@@ -24,6 +24,26 @@ const print = async (component: ComponentBase,id:ComponentBase, params?: any) =>
   }
 }
 
+// Quyền truy cập vào admin
+router.on("/admin/*", () => {}, {
+  before(done, match) {
+      if(JSON.parse(localStorage.getItem('user'))){
+          const id = JSON.parse(localStorage.getItem('user')).id;
+          if(id == 1){
+              done();
+          } else {
+              alert("Bạn Không có quyền truy cập")
+              document.location.href="/"
+          }
+      } else {
+          alert("Vui lòng đăng nhập")
+          document.location.href="/signin"
+      }
+    
+    
+  }
+})
+
 router.on({
   "/": () => {
     print(HomePage)

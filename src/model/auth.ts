@@ -1,11 +1,13 @@
 class User {
     email: string;
-    phone: string;
+    phone: Number;
     password: string;
-    constructor(email: string, phone: string, password: string) {
+    role: Number;
+    constructor(email: string, phone: Number, password: string, role: Number) {
         this.email = email
         this.phone = phone
         this.password = password
+        this.role = role
     }
 }
 

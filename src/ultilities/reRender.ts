@@ -1,10 +1,8 @@
-import { ComponentBase } from "../main";
+import { ComponentBase } from "../main"
 
-const reRender = async (element: string, component: ComponentBase) => {
-    if(element) {
-        document.querySelector(element).innerHTML = await component.render()
-    } 
-    if(component.afterRender) {
-        await component.afterRender()
+export async function rerender(elementId, content: ComponentBase) {
+    if (elementId) {
+        document.querySelector(elementId).innerHTML = await content.render();
     }
+    if (content.afterRender) content.afterRender();
 }

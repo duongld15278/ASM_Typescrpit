@@ -16,8 +16,8 @@ const AdminHeader = {
 						class="w-[500px] h-8 px-8 py-2 font-semibold placeholder:bg-gray-500 text-black rounded-lg border-none focus:ring-gray-500 ring-2">
 					</div>
 				</div>
-				<div class="w-2/5 pr-24 text-right my-auto">
-					<a href="" class="text-xl text-white">Lê Đại Dương</a>
+				<div class="w-2/5 pr-24 text-right text-white my-auto">
+					<button id="logout">Logout</button>
 				</div>
 		
 			</header>
