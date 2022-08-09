@@ -55,7 +55,7 @@ const DetailProduct = {
                         <div class="text-base w-full h-[157px]">
                             Mô tả ngắn: ${res.shortDesc}
                         </div>
-                        <div class="flex">
+                        <div class="flex mt-16">
                             <button>
                                 <div class=" inline-black bg-red-600 py-5 px-16 rounded-md text-white">
                                     Mua ngay
@@ -106,11 +106,11 @@ const DetailProduct = {
                 </div>
                 <section class="bg-stone-300 container max-h-50	mt-20 rounded-lg mx-auto p-2">
                     <h2 class=" text-center text-red-700 text-2xl">ĐẶC ĐIỂM NỔI BẬT</h2>
-                    <div class="mt-3 ">
+                    <div class="mt-3 text-center">
                         ${res.feature}
                     </div>
                 </section>
-                <div class="mx-auto container my-10">
+                <div class="mx-auto container my-10 text-center">
                     ${res.longDesc}
                 </div>
             </div>

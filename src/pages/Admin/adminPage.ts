@@ -116,7 +116,6 @@ const AdminPage = {
                 location.href = "/admin"
             }
             else {
-
                 history.replaceState(null, null, `?category=${e.target.value}`)
                 location.reload()
             }
